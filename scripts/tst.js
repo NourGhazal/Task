@@ -1,6 +1,6 @@
 
 var webgazer = document.createElement('script');
-webgazer.src = '../WebGazer/build/webgazer.min.js';
+webgazer.src = '../scripts/WebGazer/build/webgazer.min.js';
 document.head.appendChild(webgazer);
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
