@@ -184,7 +184,7 @@ h1{
 }
 .info{
   background-color: #67ce81;
-    width: 80%;
+    /* width: 80%; */
  
 }
 .infoparagraph{
@@ -225,9 +225,9 @@ a:hover {
 }
 .GetStarted{
   background-color: #726E6E; 
-  width: 13%;
-  height: 2.2em;
-  margin-top: 5em;
+  width: 100%;
+  height: 50%;
+  margin-top: 25%;
 }
 .more{
   font-size: medium;
