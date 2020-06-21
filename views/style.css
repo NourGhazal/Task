@@ -67,13 +67,7 @@ background-color: #726e6e;
   margin: 0px;
     
 }
-#c1{
 
-  float: left;
-  flex-direction: row;
-  min-width:100%;
-  min-height: 100%;
-}
 .container{
 
   display: flex;

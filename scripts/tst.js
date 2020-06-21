@@ -1,12 +1,12 @@
 
 var webgazer = document.createElement('script');
-webgazer.src = '../scripts/WebGazer/build/webgazer.min.js';
+webgazer.src = 'scripts/WebGazer/www/webgazer.js';
 document.head.appendChild(webgazer);
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
     }
     async function mute(){
-    await sleep(500);  
+    await sleep(5000);  
   
     // webgazer.begin();
     webgazer.setGazeListener(function(data, elapsedTime) {
